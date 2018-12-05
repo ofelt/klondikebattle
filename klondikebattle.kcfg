@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kcfg xmlns="http://www.kde.org/standards/kcfg/1.0"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.kde.org/standards/kcfg/1.0
+      http://www.kde.org/standards/kcfg/1.0/kcfg.xsd">
+    <kcfgfile name="klondikebattlerc"/>
+    <group name="General Settings">
+        <entry name="AutoDropEnabled" key="Autodrop" type="Bool">
+            <default>true</default>
+        </entry>
+        <entry name="SolverEnabled" key="Solver" type="Bool">
+            <default>true</default>
+        </entry>
+        <entry name="PlaySounds" type="Bool">
+            <default>false</default>
+        </entry>
+        <entry name="RememberStateOnExit" type="Bool">
+            <default>false</default>
+        </entry>
+        <entry name="CardTheme" key="Cardname" type="String">
+            <default>svg-oxygen-air</default>
+        </entry>
+        <entry name="KrapetteCompulsoryMoves" key="KrapetteCompulsoryMoves" type="Bool">
+            <default>true</default>
+        </entry>
+        <entry name="KrapetteMovesShortcuts" key="KrapetteMovesShortcuts" type="Bool">
+            <default>true</default>
+        </entry>
+        <entry name="KrapetteAISpeed" key="KrapetteAISpeed" type="Int">
+            <default>1</default>
+        </entry>
+    </group>
+    <group name="Players">
+        <entry name="Player1Name" key="Player1Name" type="String">
+            <default>Player 1</default>
+        </entry>
+        <entry name="Player1Human" key="Player1Human" type="Bool">
+            <default>true</default>
+        </entry>
+        <entry name="Player2Name" key="Player2Name" type="String">
+            <default>Player 2</default>
+        </entry>
+        <entry name="Player2Human" key="Player2Human" type="Bool">
+            <default>false</default>
+        </entry>
+    </group>
+</kcfg>
